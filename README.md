@@ -10,11 +10,11 @@ javac -encoding UTF-8 father/*.java
 vim MANIFEST.MF
 
 输入
-'''
+```
 Manifest-Version: 1.0
 Main-Class: father.PolyCal
 
-'''
+```
 **注意**
 **Main-Class: PolyCal的“:”后必须有空格,此行后必须有换行**
 
@@ -27,11 +27,11 @@ jar cvfm Somebody.jar father/MANIFEST.MF father/*.class
 javac -encoding UTF-8 *.java
 vim MANIFEST.MF
 输入
-'''
+```
 Manifest-Version: 1.0
 Main-Class: PolyCal
 
-'''
+```
 jar cfm Somebody.jar MANIFEST.MF *.class
 
 ### jar的使用

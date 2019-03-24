@@ -5,7 +5,7 @@
 MANIFEST.MF顾名思义是配置文件的意思, 这个文件中必须要进行主类名的说明.<br>
 最后就可以直接调用了.<br>
 jar在多人互测时比较方便.<br>
-当然, 如果只是针对自己的一个project可以直接用`java Main`的方法(Main为主类名)调用主类, 就不需要jar了
+当然, 如果只是针对自己的一个project可以在编译后直接用`java Main`的方法(Main为主类名)调用主类, 就不需要jar了
 #### 用了包:
 在包的**父目录**命令行下运行<br>
 `javac -encoding UTF-8 father/*.java`
